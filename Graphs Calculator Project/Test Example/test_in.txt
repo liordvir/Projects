@@ -1,0 +1,102 @@
+print ( { FollowingTestsShouldPass } )
+g1 = {}
+g2 = {|}
+g3 = {a,   b  ,  c}
+g4 = {a,   b  ,  c  | }
+print(g1)
+print (g2)
+print ((g1) * (g2))
+g3 = !g3 - g3 * g3
+print(g3)  
+print ( g1 + { hi, how, are, you | <hi, are> , <how, you> , <you, are> } ^ !{you, are|} - !!!!{you} + !(!(!{a,b,c|<a,b>,<b,a>})) + {congratulations} )
+FullGraph = !{ a1 , b2 , c3 }
+print(FullGraph * FullGraph)
+NotSoFullGraph = FullGraph - {a1|} + (FullGraph*FullGraph) ^ {[b2;b2], [b2;b3]|<[b2;b2], [b2;b3]>}
+print(!(NotSoFullGraph + FullGraph))
+        
+    save   ( g1 + g2 * g3 ^ !g4 - { a , b | <a,b> }    ,    should_pass.gc    )
+g3 = g3 +{b     ,      c |         <c,b>}
+   save  ( g3 + load   (  should_pass.gc   ) * g3 , should    also pass   . {*-^+! .txt )  
+   who
+  delete (             g3     )
+  who
+   g5 = g1 * g2
+g6 = {a , b | <a,b>}
+print(g6)
+print(g6 - {a})
+  print   (   g5  ^ load(  should    also pass   . {*-^+! .txt ) )
+  g1 = {save, load, print, who, reset, delete, quit | <save,load>   ,  <   print  ,   who  > ,    <reset,    quit >       }
+      reset
+who
+print( {} )
+print ( {this, is, fine | <is, fine>} )
+save({well, done |} , load + save * print - who ^ quit $ reset )
+print ( load (   load + save * print - who ^ quit $ reset) + { good, job} )  
+save({success}, load)
+save({success}, save)
+save({success}, delete)
+save({success}, who)
+save({success}, reset)
+save({success}, print)
+print(load(load))
+print(load(save))
+print(load(delete))
+print(load(who))
+print(load(reset))
+print(load(print))
+print ( load(load) * load(save) + load(who))
+print(load(LongerThanSpecified.gc))
+
+print ( { FollowingTestsShouldNotPass } )
+(print({}))
+(who)
+(quit)
+(reset)
+quit plz 
+FailToDelete = {}
+(delete(FailToDelete))
+(save({}, ShouldFailToSave))
+print(ShouldFailToSave)
+    save   ( g1 + g2 * g3 ^ !g4 - { a , b | <a,b> }    ,    should_pass.gc    )
+save(   )
+save( {a} )
+save( {a},, Should Not Save.gc)
+save ( {illegal name}, Should Also Not Save.gc)
+w h o
+print(   )
+print
+save ( save ( {} ) )
+who are you
+print(g6)
+print (    {}    )   hi
+failTest = load(file_test_1 not enough vertices.gc)
+failTest = load(file_test_2 not enough edges.gc)
+failTest = load(file_test_3 double vertex.gc)
+failTest = load(file_test_4 double edge.gc)
+failTest = load(file_test_5 edge of missing vertex one.gc)
+failTest = load(file_test_6 edge of missing vertex two.gc)
+failTest = load(file_test_7 self-loop.gc)
+failTest = load(file_test_8 illegal vertex name one.gc)
+failTest = load(file_test_9 illegal vertex name two.gc)
+failTest = load(file_test_10 illegal edge name.gc)
+failTest = load(This file does not exist in folder.gc)
+failTest = load(Illegal comma ,.gc)
+print(failTest)
+failGraph = { a, , b | <a,b> }
+failGraph = { a, "b", | <a, "b"> }
+failGraph = {long, loooong, maaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaan | <long, loooong> }}
+failGraph = {a , b |} !{a}
+helper1 = {a, b|<a,b>}
+failGraph = {a,b|<a,b>,}
+failGraph = {a,b|,<a,b>}
+failGraph = {,a,b|,<a,b>}
+failGraph = {a,b,|,<a,b>}
+helper1 = failGraph
+who
+delete(failTest)
+who
+print ( load(save) + load(file_test_1: not enough vertices))
+print({TheEnd})
+quit
+
+

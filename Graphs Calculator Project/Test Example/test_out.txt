@@ -1,0 +1,171 @@
+FollowingTestsShouldPass
+$
+$
+$
+$
+$
+a
+are
+b
+c
+congratulations
+$
+a c
+b c
+c a
+c b
+[a1;a1]
+[a1;b2]
+[a1;c3]
+[b2;a1]
+[b2;b2]
+[b2;c3]
+[c3;a1]
+[c3;b2]
+[c3;c3]
+$
+[a1;a1] [b2;b2]
+[a1;a1] [b2;c3]
+[a1;a1] [c3;b2]
+[a1;a1] [c3;c3]
+[a1;b2] [b2;a1]
+[a1;b2] [b2;c3]
+[a1;b2] [c3;a1]
+[a1;b2] [c3;c3]
+[a1;c3] [b2;a1]
+[a1;c3] [b2;b2]
+[a1;c3] [c3;a1]
+[a1;c3] [c3;b2]
+[b2;a1] [a1;b2]
+[b2;a1] [a1;c3]
+[b2;a1] [c3;b2]
+[b2;a1] [c3;c3]
+[b2;b2] [a1;a1]
+[b2;b2] [a1;c3]
+[b2;b2] [c3;a1]
+[b2;b2] [c3;c3]
+[b2;c3] [a1;a1]
+[b2;c3] [a1;b2]
+[b2;c3] [c3;a1]
+[b2;c3] [c3;b2]
+[c3;a1] [a1;b2]
+[c3;a1] [a1;c3]
+[c3;a1] [b2;b2]
+[c3;a1] [b2;c3]
+[c3;b2] [a1;a1]
+[c3;b2] [a1;c3]
+[c3;b2] [b2;a1]
+[c3;b2] [b2;c3]
+[c3;c3] [a1;a1]
+[c3;c3] [a1;b2]
+[c3;c3] [b2;a1]
+[c3;c3] [b2;b2]
+[b2;b2]
+a1
+b2
+c3
+$
+[b2;b2] a1
+[b2;b2] b2
+[b2;b2] c3
+a1 [b2;b2]
+b2 [b2;b2]
+c3 [b2;b2]
+FullGraph
+NotSoFullGraph
+g1
+g2
+g3
+g4
+FullGraph
+NotSoFullGraph
+g1
+g2
+g4
+a
+b
+$
+a b
+b
+$
+$
+$
+fine
+is
+this
+$
+is fine
+done
+good
+job
+well
+$
+success
+$
+success
+$
+success
+$
+success
+$
+success
+$
+success
+$
+[success;success]
+success
+$
+success
+$
+FollowingTestsShouldNotPass
+$
+Error: Unknown command
+Error: Unknown command
+Error: Unknown command
+Error: Unknown command
+Error: Invalid quit command
+Error: Unknown command
+Error: Unknown command
+Error: 'ShouldFailToSave' is not in memory
+Error: 'g4' is not in memory
+Error: Invalid save command
+Error: Invalid save command
+Error: Format of command is illegal
+Error: Invalid Graph form
+Error: Unknown command
+Error: Invalid print command
+Error: Invalid print command
+Error: Invalid save command
+Error: Invalid who command
+Error: 'g6' is not in memory
+Error: Invalid print command
+Error: Graph cannot contain more than one of each vertex
+Error: File ended unexpectedly
+Error: Graph cannot contain more than one of each vertex
+Error: Graph cannot contain more than one of each edge
+Error: 'b' is not in Graph
+Error: 'a' is not in Graph
+Error: Graph cannot contain self-circled edges
+Error: 'a[;];' is not a valid vertex name
+Error: '"a"' is not a valid vertex name
+Error: '"a"' is not in Graph
+Error: Cannot open file 'This file does not exist in folder.gc'
+Error: File name cannot contain commas
+Error: 'failTest' is not in memory
+Error: Invalid Graph form
+Error: Invalid Graph form
+Error: Format of command is illegal
+Error: Format of command is illegal
+Error: Invalid Graph form
+Error: Invalid Graph form
+Error: Invalid Graph form
+Error: Invalid Graph form
+Error: 'failGraph' is not in memory
+FailToDelete
+helper1
+Error: 'failTest' is not in memory
+FailToDelete
+helper1
+Error: Cannot open file 'file_test_1: not enough vertices'
+TheEnd
+$
